@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sizer{
+    margin-top: 30vh;
+    height: 40vh;
+    width: 30vh;
+    background-color: dimgrey;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 25px;
+    color: orange;
+    height: 70px;
+
+}
+.sizer:hover{
+    cursor: crosshair;
+}
+
+.boutons{
+    padding-top: 35px;
+    margin-top: 25px;
+    padding-left: 5px;
+
+}
+
+.bouton{
+    border: orange 2px solid;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+    width: 55px;
+    height: 40px;
+}
+
+
+
+.bouton:hover{
+    border: orangered 2px solid;
+
+}

@@ -1,3 +1,6 @@
+const affichage= document.querySelector(".base")
+
+
 function calcul(a,b,c){
 
     switch (a){
@@ -59,7 +62,7 @@ function calcul(a,b,c){
     console.log(b)
     console.log(c)
 
-document.querySelector("base").textContent=c
+affichage.innerHTML=c
 
 }
 
